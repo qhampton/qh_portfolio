@@ -1659,3 +1659,44 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+		.inner-grid {
+			width: 960px;
+		}
+		
+		.project {
+			display: inline-block;
+			position: relative;
+			width: 45%;
+			margin: 10px 2%;
+		}
+		
+		.project img {
+			width: 100%;
+		}
+		
+		.project h2 {
+			position: absolute;
+			bottom: 20px;
+			background-color: #4aaaa5;
+			width: 100%;
+			color: #ffffff;
+			text-align: center;
+		} 
+		
+		@media screen and (max-width: 768px) {
+			.project{
+				margin:auto;
+				display: block;
+				width: 80%;
+			}
+		}
+		
+		@media screen and (max-width: 640px) {
+			.project{
+				margin:auto;
+				float: none;
+				display: block;
+				width: 300px;
+			}
+		}
